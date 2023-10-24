@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filters {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .locations,
+    .amenities {
+      width: 100%;
+      margin-bottom: 3%;
+    }
+  
+    .locations h3,
+    .amenities h3 {
+      text-align: center;
+      margin-top: 0;
+    }
+  
+    .locations h4,
+    .amenities h4 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+  
+    section.filters button {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 20px;
+    }
+  }
+  
