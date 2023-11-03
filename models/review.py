@@ -1,18 +1,12 @@
 #!/usr/bin/python3
-"""
-Review Module
+"""This module creates a Review class"""
 
-This module conatins a class the defines the blue print of a Review
-"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """
-    Review Model
+    """Class for managing review objects"""
 
-    Defines the blue print of a Review
-    """
     place_id = ""
     user_id = ""
     text = ""

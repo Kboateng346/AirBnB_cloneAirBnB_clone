@@ -1,18 +1,11 @@
 #!/usr/bin/python3
-"""
-User Module
-
-Contains the user model class that inherits BaseModel
-"""
+"""This module creates a User class"""
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """
-    User Model
+    """Class for managing user objects"""
 
-    Inherits BaseModel and is the blueprint for a user
-    """
     email = ""
     password = ""
     first_name = ""
